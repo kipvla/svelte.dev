@@ -284,9 +284,7 @@ Returns void if no callback is provided, otherwise returns the result of calling
 <div class="ts-block">
 
 ```dts
-function flushSync<T = void>(
-	fn?: (() => T) | undefined
-): T extends void ? void : T;
+function flushSync<T = void>(fn?: (() => T) | undefined): T;
 ```
 
 </div>
