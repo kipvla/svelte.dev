@@ -402,6 +402,8 @@ namespace AST {
 			Attribute | SpreadAttribute | Directive
 		>;
 		fragment: Fragment;
+		/** Id */
+		const_dev_statements?: ExpressionStatement[];
 	}
 
 	export interface Component extends BaseElement {
